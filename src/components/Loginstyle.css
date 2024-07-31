@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+}
+
+.container {
+  width: 550px;
+  background: #ecdddd;
+  color: black;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.Header {
+  color: rgb(0, 140, 255);
+  font-size: 32px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.8rem;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgb(95, 88, 88);
+  color: black;
+  font-size: 14px;
+}
+
+.submit-grp {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.submit {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: white;
+}
+
+.submit.active {
+  background: #797575;
+  color: black;
+}
